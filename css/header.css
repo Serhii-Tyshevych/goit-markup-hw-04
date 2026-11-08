@@ -1,0 +1,42 @@
+.header {
+}
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-header {
+  padding: 24px 0;
+}
+.header-nav {
+  margin-left: 76px;
+  margin-right: auto;
+}
+.header-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.header-item {
+}
+.header-link {
+  font-weight: 500;
+  color: #2e2f42;
+  padding: 24px 0;
+}
+.contacts {
+}
+.contacts-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.contacts-item {
+}
+.contacts-link {
+  padding: 24px 0;
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404bbf;
+}
