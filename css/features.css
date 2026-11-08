@@ -10,13 +10,18 @@
 .features-item {
 }
 .features-wrapper {
+   display: flex;
+  justify-content: center;
+  align-items: center;
+
   margin-bottom: 8px;
   border: 1px solid #8e8f99;
   border-radius: 4px;
   background: #f4f4fd;
+  height: 112px;
 }
 .features-icon {
-  margin: 24px 100px;
+  margin: 0;
 }
 .features-subtitle {
   margin-bottom: 8px;

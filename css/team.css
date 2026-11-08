@@ -25,25 +25,29 @@
     0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
 }
-.team-pic {
+
+.team-content {
+  padding: 32px 16px;
 }
+
 .team-name {
   margin-bottom: 8px;
-  padding-top: 32px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
   color: #2e2f42;
 }
+
 .team-text {
-  padding-bottom: 32px;
+  margin-bottom: 8px;
   text-align: center;
 }
 
-.team-social-list {
- 
+.team .socials-list {
+  padding: 0;
 }
+
 .team .socials-link:hover,
 .team .socials-link:focus {
   background-color: #404bbf;

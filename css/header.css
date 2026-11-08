@@ -29,9 +29,11 @@
 }
 .contacts-link {
   padding: 24px 0;
+  transition: 250ms ease-out;
+  transition-property: color;
 }
 .contacts-link:hover,
-.contacts-link:focus,
+.contacts-link:focus
  {
   color: #404bbf;
 }
@@ -46,7 +48,7 @@
 
   position: relative;
   display: block;
-  transition: 300ms ease-out;
+  transition: 250ms ease-out;
   transition-property: color;
 }
 
