@@ -7,7 +7,6 @@
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
-  gap: 40px 120px;
 }
 
 .footer-wrapper {
@@ -25,7 +24,8 @@
 }
 
 .footer-socials {
-  margin: 0;
+
+  margin-left: 120px;
 }
 
 .footer-media {

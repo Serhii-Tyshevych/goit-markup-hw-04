@@ -13,6 +13,8 @@
   max-width: 1440px;
   margin: 0 auto;
   background-color: #2e2f42;
+
+  padding: 188px 0;
 }
 
 .hero-title {
@@ -37,6 +39,7 @@
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #4d5ae5;
   color: #fff;
+  
   transition: 250ms ease-out;
   transition-property: background-color;
 }

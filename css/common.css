@@ -27,8 +27,7 @@ a {
   color: inherit;
 }
 button {
-  
-  cursor: pointer;
+    cursor: pointer;
 }
 address {
   font-style: normal;
@@ -38,6 +37,7 @@ img {
   max-width: 100%;
   height: auto;
 }
+
 /* Base styles*/
 .sr-only {
   position: absolute;
