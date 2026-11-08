@@ -40,3 +40,11 @@
   padding-bottom: 32px;
   text-align: center;
 }
+
+.team-social-list {
+ 
+}
+.team .socials-link:hover,
+.team .socials-link:focus {
+  background-color: #404bbf;
+}

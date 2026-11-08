@@ -18,6 +18,17 @@
 }
 .portfolio-item {
   width: calc((100% - 24px * 2) / 3);
+
+  transition: 300ms ease-out;
+  transition-property: box-shadow;
+}
+
+.portfolio-item:hover {
+  box-shadow:
+    0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
 }
 .portfolio-ill {
 }
@@ -35,4 +46,32 @@
   color: #2e2f42;
 }
 .portfolio-text {
+}
+
+.portfolio-thumb {
+  position: relative;
+  overflow: hidden;
+}
+.portfolio-item:hover .overlay {
+  transform: translateY(0);
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(101%);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+  height: calc(100% - 15px);
+  transform: translateY(calc(100% + 15px));
+  color: #fafafa;
+  background-color: #4d5ae5;
+
+  transition: 300ms ease-out;
+  transition-property: transform;
 }

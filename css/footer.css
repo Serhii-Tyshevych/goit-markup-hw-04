@@ -1,6 +1,11 @@
 .footer {
   background-color: #2e2f42;
 }
+.footer-container {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
 .footer-wrapper {
   padding: 120px 0;
 }
@@ -12,4 +17,32 @@
 
 .logo-footer {
   color: #f4f4fd;
+}
+
+.footer-socials {
+  margin-left: 120px;
+}
+.footer-media {
+  margin-bottom: 16px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.footer-socials-list {
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+
+}
+.socials-link {
+  transition: color 800ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer .socials-link:hover,
+.footer .socials-link:focus {
+  background-color: #31d0aa;
+
+}
+
+.footer-socials-icon {
 }
